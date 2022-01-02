@@ -18,36 +18,18 @@ class Movie {
     }
 }
 
-$firtsMovie = new Movie('Spider Man 1', 45, 'ita');
-echo $firtsMovie->nome;
-echo '<br>';
-
-echo $firtsMovie->id;
-echo '<br>';
-
-echo $firtsMovie->leng;
+$firstMovie = new Movie('Spider Man 1', 45, 'ita');
+var_dump($firstMovie);
 
 echo '<hr>';
 
-$firtsMovie = new Movie('Spider Man 2', 465, 'ita');
-echo $firtsMovie->nome;
-echo '<br>';
-
-echo $firtsMovie->id;
-echo '<br>';
-
-echo $firtsMovie->leng;
+$secondMovie = new Movie('Spider Man 2', 465, 'ita');
+var_dump($secondMovie);
 
 echo '<hr>';
 
-$firtsMovie = new Movie('Spider Man 3', 345, 'ita');
-echo $firtsMovie->nome;
-echo '<br>';
-
-echo $firtsMovie->id;
-echo '<br>';
-
-echo $firtsMovie->leng;
+$thirdMovie = new Movie('Spider Man 3', 345, 'ita');
+var_dump($thirdMovie);
 
 echo '<hr>';
 
